@@ -8,7 +8,7 @@ const Login = () => {
   const router = useRouter()
 
   useEffect(() => {
-    document.title = "Login - Get Me A Chai"
+    document.title = "Login - Get Me A Chai" 
     console.log(session)
     if (session) {
       router.push('/dashboard')
@@ -143,8 +143,10 @@ const Login = () => {
               </g>
             </g>
           </svg>
+
           <span>Continue with Apple</span>
         </button>
+
 
       </div>
     </div>
